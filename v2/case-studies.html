@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ProvenLift Case Studies — Real audits, real results. BASE ATX recovered $1,200/month. See how.">
+  <title>Case Studies — ProvenLift</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/provenlift.css">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" aria-label="ProvenLift Home">ProvenLift</a>
+      
+      <nav class="nav-links" id="navLinks" role="navigation" aria-label="Main navigation">
+        <a href="/services.html" class="nav-link">Services</a>
+        <a href="/case-studies.html" class="nav-link active">Case Studies</a>
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/book.html" class="btn btn-primary nav-link">Book Audit</a>
+      </nav>
+      
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="hero section" aria-labelledby="hero-heading">
+      <div class="container">
+        <p class="hero-badge" aria-label="Proof scope">Real audits. Real revenue.</p>
+        <h1 id="hero-heading" class="hero-title">Case Studies</h1>
+        <p class="hero-description">Real audits. Real revenue recovered. See how boutique fitness studios plugged the leaks.</p>
+      </div>
+    </section>
+
+    <!-- Case Study: BASE ATX -->
+    <section class="section" aria-labelledby="base-heading">
+      <div class="container">
+        <article class="case-study-full">
+          <header class="case-header">
+            <p class="case-badge">Boutique Fitness — Austin, TX</p>
+            <h2 id="base-heading" class="section-title">BASE ATX</h2>
+            <div class="case-meta">
+              <div class="meta-item">
+                <span class="meta-label">Ad Spend</span>
+                <span class="meta-value">$3.2K/mo</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Recovered</span>
+                <span class="meta-value text-gold">$1,200/mo</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Lift</span>
+                <span class="meta-value text-gold">38%</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Timeline</span>
+                <span class="meta-value">5 days</span>
+              </div>
+            </div>
+          </header>
+          
+          <div class="case-body">
+            <section class="case-section">
+              <h3>The Problem</h3>
+              <p>BASE ATX ran Instagram/Meta ads for their "4 for $50" intro offer and Founding Member pricing ($325 + $30/mo). Ads clicked. But the "Book First Class" button triggered a modal requiring name, email, and <em>phone number</em> before showing a single class time.</p>
+              <p>ClassPass users booked the same classes in two clicks. Direct traffic hit a five-step wall. The phone field alone caused ~40% drop-off.</p>
+              <p>No follow-up existed. Leads captured at 10 PM sat until morning. No SMS confirmation. No email sequence. No "spot held" automation.</p>
+            </section>
+            
+            <section class="case-section">
+              <h3>The Audit</h3>
+              <p>We mapped every click from ad to booked class. Four friction points tagged with drop-off %:</p>
+              <ul class="audit-list">
+                <li><strong>Phone field wall (38%)</strong> — Required before schedule view</li>
+                <li><strong>Modal + iframe (12%)</strong> — Modal → Mindbody iframe load failure</li>
+                <li><strong>No guest path (8%)</strong> — No "reserve spot, pay at studio" option</li>
+                <li><strong>Zero nurture (15%)</strong> — No follow-up for no-shows, trial used, or schedule browsers</li>
+              </ul>
+            </section>
+            
+            <section class="case-section">
+              <h3>The Fix</h3>
+              <p>Built a working n8n flow in 5 days:</p>
+              <ul class="audit-list">
+                <li><strong>Public schedule view</strong> — Inline calendar, no auth required</li>
+                <li><strong>"Reserve Spot" button</strong> — Holds spot 15 min, no phone required</li>
+                <li><strong>SMS + email flow</strong> — "Spot held 15 min" + class prep email on submit</li>
+                <li><strong>No-show branch</strong> — 30 min SMS: "Life happens. Next class on us?" + deep link</li>
+                <li><strong>Trial-used branch</strong> — Day 3 "How'd it feel?" → Day 7 Founder offer ($99/mo lock-in)</li>
+                <li><strong>UTM preservation</strong> — Across Mindbody → ClassPass → CRM for true CAC</li>
+              </ul>
+            </section>
+            
+            <section class="case-section case-results">
+              <h3>The Result</h3>
+              <div class="result-grid">
+                <div class="result-metric">
+                  <span class="result-value">38%</span>
+                  <span class="result-label">Lift in trial bookings</span>
+                </div>
+                <div class="result-metric">
+                  <span class="result-value">$1,200</span>
+                  <span class="result-label">Monthly recovered revenue</span>
+                </div>
+                <div class="result-metric">
+                  <span class="result-value">20%+</span>
+                  <span class="result-label">Cost-per-trial drop</span>
+                </div>
+              </div>
+              <blockquote class="testimonial">
+                "The phone field was killing us. ProvenLift found it in day one and fixed it in five."
+                <cite>— Andrew Phillips, Founder, BASE ATX</cite>
+              </blockquote>
+            </section>
+            
+            <div class="case-cta">
+              <a href="/case-studies/base-atx.html" class="btn btn-primary btn-lg">Read Full Teardown →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Pipeline Preview -->
+    <section class="section section--cream" aria-labelledby="pipeline-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-badge">In Progress</p>
+          <h2 id="pipeline-heading" class="section-title">More in the Pipeline</h2>
+        </header>
+        <div class="grid-3">
+          <article class="card pipeline-card">
+            <div class="pipeline-badge">Scoping</div>
+            <h3 class="card-title">Ninja Nation Austin</h3>
+            <p class="card-description">Obstacle gym. High ad spend, ClassPass dependent. Phone wall + no follow-up.</            </article>
+            <article class="card pipeline-card">
+              <div class="pipeline-badge">Scoping</div>
+              <h3 class="card-title">Generator Athlete Lab</h3>
+              <p class="card-description">Sports performance. High-ticket ($200+/mo). Complex booking = high drop-off.</p>
+            </article>
+            <article class="card pipeline-card">
+              <div class="pipeline-badge">Queue</div>
+              <h3 class="card-title">Hive + Honey Pilates</h3>
+              <p class="card-description">Two locations. Multi-studio scheduling friction. No cross-location lead routing.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta section" aria-labelledby="case-cta-heading">
+      <div class="container">
+        <div class="cta-content">
+          <p class="section-badge">Your Turn</p>
+          <h2 id="case-cta-heading" class="section-title">See Your Leaks?</h2>
+          <p class="cta-description">Send your ad URL + booking link. We'll tell you where the money's leaking — free.</p>
+          <a href="/book.html" class="btn btn-primary btn-lg">Get Free Friction Check →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="/" class="footer-logo" aria-label="ProvenLift Home">ProvenLift</a>
+        <p class="footer-tagline">Lead funnel audits for boutique fitness. Stop leaking ad spend. Start converting.</p>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services.html">Lead Lift Audit</a></li>
+          <li><a href="/services.html#implementation">Implementation</a></li>
+          <li><a href="/services.html#retest">14-Day Retest</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/case-studies.html">Case Studies</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/book.html">Book Audit</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:murtasim@provenlift.io">murtasim@provenlift.io</a></li>
+          <li><a href="https://github.com/provenlift" target="_blank" rel="noopener">GitHub</a></li>
+          <li>Austin, TX</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> ProvenLift. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/provenlift.js"></script>
+</body>
+</html>

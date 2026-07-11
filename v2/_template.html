@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ProvenLift — We audit your lead funnel, find the friction, and build the follow-up logic that converts. First 3 clients in Austin fitness only.">
+  <title>ProvenLift — Lead Funnel Audits for Boutique Fitness</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/provenlift.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏋️</text></svg>">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" aria-label="ProvenLift Home">ProvenLift</a>
+      
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <div class="nav-links" id="navLinks" role="menubar">
+        <a href="/services.html" class="nav-link" role="menuitem">Services</a>
+        <a href="/case-studies.html" class="nav-link" role="menuitem">Case Studies</a>
+        <a href="/about.html" class="nav-link" role="menuitem">About</a>
+        <a href="/book.html" class="btn btn-primary" role="menuitem">Book Audit</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main" role="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="/" class="footer-logo" aria-label="ProvenLift Home">ProvenLift</a>
+        <p class="footer-tagline">Lead funnel audits for boutique fitness. Stop leaking ad spend. Start converting.</p>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services.html">Lead Lift Audit</a></li>
+          <li><a href="/services.html#implementation">Implementation</a></li>
+          <li><a href="/services.html#retest">14-Day Retest</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/case-studies.html">Case Studies</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/book.html">Book Audit</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:murtasim@provenlift.io">murtasim@provenlift.io</a></li>
+          <li><a href="https://github.com/provenlift" target="_blank" rel="noopener">GitHub</a></li>
+          <li>Austin, TX</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> ProvenLift. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/provenlift.js"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>
